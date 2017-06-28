@@ -1,13 +1,45 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Ejercicio</title>
+<title>Calculadora</title>
+	<!-- Viewport -->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!-- Tipografia-->
+	<link href="https://fonts.googleapis.com/css?family=Khula" rel="stylesheet">
 <link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+<form action="" class="flex">
+	<div class="flex-content">
+		<div class="head gold"></div>
+		<div class="content gray-soft">
+			<div class="screen-case">
+				<input type="text" value="" id="resultado" readonly class="screen gray-medium">
+			</div>
+		<hr>
+		<input class="gray-dark" type="button" value="1">
+		<input class="gray-dark" type="button" value="2">
+		<input class="gray-dark" type="button" value="3">
+		<input class="gray-dark" type="button" value="*">
+		<input class="gray-dark" type="button" value="4">
+		<input class="gray-dark" type="button" value="5">
+		<input class="gray-dark" type="button" value="6">
+		<input class="gray-dark" type="button" value="-">
+		<input class="gray-dark" type="button" value="7">
+		<input class="gray-dark" type="button" value="8">
+		<input class="gray-dark" type="button" value="9">
+		<input class="gray-dark" type="button" value="+">
+		<input class="gray-dark" type="button" value="C">
+		<input class="gray-dark" type="button" value="=">
+		<input class="gray-dark" type="button" value="0">
+		<input class="gray-dark" type="button" value="/">
+		</div>
+		</div>
+	</div>
+</form>
 <!-- JAVASCRIPT es preferible como ultima linea en el body -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
